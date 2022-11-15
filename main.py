@@ -33,4 +33,4 @@ random.shuffle(password_list)
 
 for i in password_list:
   hardpassword += i
-print(hardpassword)
+print(f"shuffled password:\n{hardpassword}")
